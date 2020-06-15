@@ -26,28 +26,32 @@ header {
     border-right: 10px solid #ba786f;
     border-left: 10px solid #ba786f;
 }
+    header nav {
+        padding: 15px;
+    }
+        header nav button {
+            background: none;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+        header nav button#info-close {
+            display: none;
+        }
+        header nav img {
+            width: 50px;
+            margin-bottom: 10px;
+        }
     header aside {
+        display: none;
         position: relative;
         background: #ebd19a;
         padding: 1em;
         height: 100%;
+        transition: 3s;
         z-index: 2;
         overflow: auto;
     }
-        header aside nav {
-        }
-            header nav button {
-                background: none;
-                border: none;
-                outline: none;
-            }
-            header nav button#info-close {
-                display: none;
-            }
-            header nav img {
-                width: 50px;
-                margin-bottom: 10px;
-            }
         header aside h2 {
             font-size: 16pt;
             color: #aa685f;
