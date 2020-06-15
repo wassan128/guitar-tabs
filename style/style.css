@@ -1,23 +1,5 @@
 @charset "utf-8";
 
-* {
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
-    font-size: 10.5pt;
-    font-family: "Rounded Mplus 1c", "Meiryo UI", "メイリオ";
-}
-
-html, body {
-    width: 100%;
-    height: 100%;
-    background-image: url("../images/bg.jpg");
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: none;
-}
-
 header {
     position: fixed;
     width: 250px;
@@ -133,45 +115,5 @@ header {
             }
 
 main {
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-    flex-wrap: wrap;
-    padding: 1em;
-    margin: 0 auto;
     margin-left: 250px;
-    overflow: auto;
 }
-    .song {
-        width: 40%;
-        min-width: 300px;
-        max-width: 500px;
-        background: #fff;
-        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
-        padding: 2em;
-        margin: 1em;
-    }
-        .song-title {
-            font-size: 16pt;
-            margin-bottom: 0.5em;
-        }
-        .song-desc {
-            color: #666;
-            margin-bottom: 0.5em;
-        }
-        .song-play {
-            width: 100%;
-            border-collapse: collapse;
-            border-top: 1px solid #ccc;
-        }
-            .song-play td {
-                border-bottom: 1px solid #ccc;
-                padding: 0.5em;
-            }
-            .song-play td:first-child {
-                font-weight: bold;
-                color: #da988f;
-            }
-                .song-play td i {
-                    color: #ff0033;
-                }
