@@ -22,12 +22,56 @@ header {
     width: 250px;
     height: 100%;
     background: #ebd19a;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
+    border-right: 10px solid #ba786f;
+    border-left: 10px solid #ba786f;
 }
+    header aside {
+        position: relative;
+        background: #ebd19a;
+        padding: 1em;
+        height: 100%;
+        z-index: 2;
+        overflow: auto;
+    }
+        header aside nav {
+        }
+            header nav button {
+                background: none;
+                border: none;
+                outline: none;
+            }
+            header nav button#info-close {
+                display: none;
+            }
+            header nav img {
+                width: 50px;
+                margin-bottom: 10px;
+            }
+        header aside h2 {
+            font-size: 16pt;
+            color: #aa685f;
+            margin-bottom: 0.5em;
+            padding-bottom: 0.5em;
+            border-bottom: 2px dashed #aa685f;
+        }
+        header aside h3 {
+            font-size: 12pt;
+            margin-bottom: 0.5em;
+            color: #9a584f;
+        }
+            header aside h3 i {
+                font-size: 13pt;
+            }
+        header aside p {
+            margin-bottom: 1em;
+            color: #444;
+        }
     header div {
         position: fixed;
         width: 250px;
         bottom: 25px;
+        z-index: 1;
     }
         header div p#head-logo {
             text-align: center;
@@ -88,7 +132,7 @@ main {
         min-width: 300px;
         max-width: 500px;
         background: #fff;
-        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
         padding: 2em;
         margin: 1em;
     }
