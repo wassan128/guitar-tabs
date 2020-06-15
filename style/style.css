@@ -69,8 +69,18 @@ header {
             }
         header aside p {
             margin-bottom: 1em;
-            color: #444;
         }
+            header aside p a {
+                color: #444;
+                text-decoration: none;
+            }
+            header aside p a:hover {
+                border-bottom: 1px solid #444;
+            }
+                header aside p a i {
+                    font-size: 8pt;
+                    color: #666;
+                }
     header div {
         position: fixed;
         width: 250px;
