@@ -9,13 +9,13 @@ document.addEventListener('DOMContentLoaded', () => {
         btnInfoOpen.style.display = 'none'
         btnInfoClose.style.display = 'block'
 
-        asideContent.style.display = 'block';
+        asideContent.setAttribute("class", "show")
     })
 
     btnInfoClose.addEventListener('click', () => {
         btnInfoOpen.style.display = 'block'
         btnInfoClose.style.display = 'none'
 
-        asideContent.style.display = 'none';
+        asideContent.setAttribute("class", "hide")
     })
 })
