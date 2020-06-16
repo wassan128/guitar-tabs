@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         btnInfoOpen.style.display = 'none'
         btnInfoClose.style.display = 'block'
 
+        asideContent.style.display = "block"
         asideContent.setAttribute("class", "show")
     })
 
@@ -17,5 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
         btnInfoClose.style.display = 'none'
 
         asideContent.setAttribute("class", "hide")
+        setTimeout(() => {
+            asideContent.style.display = "none"
+        }, 500)
     })
 })
