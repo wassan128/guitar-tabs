@@ -30,12 +30,10 @@ header {
         display: none;
         box-sizing: border-box;
         border-bottom: 5px solid #ba786f;
-        margin-top: 10px;
         position: fixed;
         background: #ebd19a;
         padding: 1em;
         width: 100%;
-        z-index: 2;
         overflow: auto;
     }
         header aside h2 {
@@ -133,5 +131,6 @@ footer {
     }
     footer div p#foot-bar:before {
         content: "● ● ● ● ● ●";
+        font-size: 11pt;
     }
 
