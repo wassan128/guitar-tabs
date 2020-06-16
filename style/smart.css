@@ -31,6 +31,9 @@ header {
         header nav button#info-close {
             display: none;
         }
+            header nav button span.tooltip {
+                display: none;
+            }
         header nav img {
             margin-top: 10px;
             margin-left: 10px;
