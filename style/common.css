@@ -19,6 +19,9 @@ html, body {
     background-repeat: none;
 }
 
+header {
+    z-index: 3;
+}
 main {
     display: flex;
     justify-content: space-around;
